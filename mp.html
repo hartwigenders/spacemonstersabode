@@ -12,6 +12,11 @@ h1 {
 img {
     border-radius: 20px;
 }
+.button-group {
+  display: flex;
+  justify-content: center;
+}
+
 button {
   padding: 10px 20px;
   border: 2px solid #333;
@@ -21,6 +26,11 @@ button {
   font-size: 16px;
   cursor: pointer;
   transition: all 0.3s ease;
+  margin-right: 10px;
+}
+
+button:last-child {
+  margin-right: 0;
 }
 
 button:hover {
@@ -71,6 +81,14 @@ button:hover {
 <a href="#"><h1>Blogger</h1></a>
 <a href="#"><h1>Беседа VK</h1></a>
 <button>Кнопка</button>
+<div class="button-group">
+  <button>Кнопка 1</button>
+  <button>Кнопка 2</button>
+  <button>Кнопка 3</button>
+  <button>Кнопка 4</button>
+  <button>Кнопка 5</button>
+  <button>Кнопка 6</button>
+</div>
 </td>
 </tr>
 
