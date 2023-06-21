@@ -23,6 +23,17 @@ button {
   transition: all 0.3s ease;
   margin-right: 10px;
 }
+
+.rod {
+   position: relative;
+   background-color: #fff;
+}
+.doh {
+   position: absolute;
+      top: 0;
+      left: 0;
+   background-color: #888888;
+}
 </style>
 </head>
    
@@ -30,6 +41,10 @@ button {
 <div style="width: 100%;">
    
 <table style="width:90%;border-collapse:collapse;">
+
+<div class="rod">
+   <div class="doh"><p>Содержание</p></div>
+</div>
 
 <!-- ОБЛОЖКА -->
 
@@ -93,9 +108,7 @@ button {
   
 <tr>
 <td width="100%" style="border: 3px solid white; padding: 8px;">
-<p>
-Содержание
-</p>
+<p>Содержание</p>
 <button onclick="window.location.href = '#';">Кнопка</button>
 </td>
 </tr>
